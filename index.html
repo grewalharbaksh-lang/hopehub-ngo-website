@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HopeHub is a student-created nonprofit website concept supporting education, food security and stronger communities.">
+  <meta name="theme-color" content="#12304a">
+  <title>HopeHub — Small Acts. Big Changes.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="HopeHub home"><span class="brand-mark">H</span><span>hope<span class="brand-accent">hub</span><small>CONNECTING HEARTS</small></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Open navigation"><span></span><span></span></button>
+      <nav class="nav" id="primaryNav" aria-label="Main navigation">
+        <a href="#home">Home</a><a href="#about">Our story</a><a href="#programs">What we do</a><a href="#impact">Our impact</a>
+        <a class="nav-join" href="#volunteer">Get involved <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-shape shape-one"></div><div class="hero-shape shape-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="eyebrow-line"></span> A LITTLE KINDNESS GOES A LONG WAY</div>
+          <h1>Small acts.<br><em>Big changes.</em></h1>
+          <p class="hero-lead">A brighter future starts when we show up for one another. Join a community turning compassion into meaningful action.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#volunteer">Be part of the change <span>→</span></a><a class="text-link" href="#about">Discover our story <span>↗</span></a></div>
+          <div class="hero-note"><span class="avatar-stack"><i>☺</i><i>♥</i><i>✦</i></span><span><strong>Many hands, one hopeful future.</strong><small>Every contribution begins with you.</small></span></div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="photo-frame">
+            <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1100&q=85" alt="Children learning together in a classroom" fetchpriority="high">
+            <div class="photo-label"><span class="label-icon">✳</span><span><strong>Hope grows here</strong><small>One community at a time</small></span></div>
+          </div>
+          <div class="sun-stamp" aria-hidden="true">HOPE<br>FOR ALL</div>
+          <div class="floating-note"><span>✦</span> Start where you are.</div>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>EDUCATION</span><b>•</b><span>WELL-BEING</span><b>•</b><span>COMMUNITY</span><b>•</b><span>OPPORTUNITY</span></div>
+    </section>
+
+    <section class="intro section-pad" id="about">
+      <div class="container intro-grid">
+        <div class="section-kicker">01 / WHO WE ARE</div>
+        <div class="intro-content">
+          <h2>We believe a better world is something <em>we build together.</em></h2>
+          <div class="intro-bottom"><p>HopeHub is a fictional nonprofit website concept created to show how people can come together around causes that matter. We imagine communities where every child has the chance to learn, every family can access support, and every act of kindness creates momentum.</p><a class="round-link" href="#programs" aria-label="Explore our programs">↓</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="programs section-pad" id="programs">
+      <div class="container">
+        <div class="section-heading">
+          <div><div class="section-kicker">02 / WHERE WE FOCUS</div><h2>Good things happen<br><em>when we act.</em></h2></div>
+          <p>Big change is made of small, thoughtful steps. Explore the causes at the heart of our concept.</p>
+        </div>
+        <div class="program-grid">
+          <article class="program-card program-blue"><div class="program-top"><span>01</span><span class="program-symbol">↗</span></div><div class="program-emoji">📚</div><h3>Learning for all</h3><p>Encouraging access to books, learning resources and supportive educational spaces.</p><a href="#volunteer">Explore this cause <span>→</span></a></article>
+          <article class="program-card program-peach"><div class="program-top"><span>02</span><span class="program-symbol">↗</span></div><div class="program-emoji">🥗</div><h3>Health &amp; nourishment</h3><p>Championing well-being, food awareness and stronger support networks for families.</p><a href="#volunteer">Explore this cause <span>→</span></a></article>
+          <article class="program-card program-lilac"><div class="program-top"><span>03</span><span class="program-symbol">↗</span></div><div class="program-emoji">🌱</div><h3>Thriving communities</h3><p>Bringing people together to care for shared spaces and create local opportunities.</p><a href="#volunteer">Explore this cause <span>→</span></a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="impact section-pad" id="impact">
+      <div class="container impact-grid">
+        <div><div class="section-kicker light-kicker">03 / THE POWER OF PEOPLE</div><h2>Every effort<br>leaves a <em>mark.</em></h2><p class="impact-copy">Imagine what we can do when people, skills and good intentions come together.</p><a class="button button-light" href="#volunteer">Make a difference <span>→</span></a></div>
+        <div class="stats-grid">
+          <div class="stat"><strong class="counter" data-target="500">0</strong><span>dreams to support</span></div>
+          <div class="stat"><strong class="counter" data-target="120">0</strong><span>kind volunteers</span></div>
+          <div class="stat"><strong class="counter" data-target="25">0</strong><span>communities</span></div>
+          <div class="stat"><strong class="counter" data-target="50">0</strong><span>ideas in action</span></div>
+          <p class="stat-note">Illustrative figures for this student project — not verified organizational impact.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="volunteer section-pad" id="volunteer">
+      <div class="container volunteer-grid">
+        <div class="volunteer-copy"><div class="section-kicker">04 / YOUR TURN</div><h2>Have a little time?<br><em>Give a lot of hope.</em></h2><p>Share your interest and imagine the possibilities. This demo form shows a front-end interaction; it does not send or store applications.</p><div class="volunteer-aside"><span>✳</span><p><strong>There is a place for everyone.</strong><br>Bring your time, ideas, skills or simply your willingness to help.</p></div></div>
+        <form class="volunteer-form" id="volunteerForm">
+          <div class="form-heading"><span>LET'S CONNECT</span><span>✳</span></div>
+          <label for="fullName">Your name</label><input id="fullName" name="name" type="text" placeholder="e.g. Aanya Sharma" required minlength="2">
+          <label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <label for="interest">I'm interested in</label><select id="interest" name="interest" required><option value="">Choose an area</option><option>Learning for all</option><option>Health &amp; nourishment</option><option>Thriving communities</option><option>Something else</option></select>
+          <label for="message">A little note <span>(optional)</span></label><textarea id="message" name="message" rows="3" placeholder="Tell us what inspires you..."></textarea>
+          <button class="button button-primary form-submit" type="submit">Send my interest <span>→</span></button>
+          <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="closing"><div class="container closing-inner"><p>THE FUTURE IS A TEAM EFFORT</p><h2>Let's make room<br>for <em>more hope.</em></h2><a class="button button-light" href="#volunteer">Take the first step <span>→</span></a></div></section>
+  </main>
+
+  <footer class="footer"><div class="container footer-top"><a class="brand brand-footer" href="#home"><span class="brand-mark">H</span><span>hope<span class="brand-accent">hub</span><small>CONNECTING HEARTS</small></span></a><p>Small acts. Big changes. <span>♥</span></p><a class="back-top" href="#home">Back to top ↑</a></div><div class="container footer-bottom"><span>© 2026 HopeHub — Student Web Development Project</span><span>Made with care &amp; curiosity.</span></div></footer>
+</body>
+</html>
